@@ -1,0 +1,43 @@
+以下是Intel反汇编，GCC反汇编，以及ARM交叉编译器反汇编的命令：
+
+- **Intel反汇编**：在GDB中，你可以使用`set disassembly-flavor intel`命令来将反汇编语法更改为Intel¹。
+
+- **GCC反汇编**：你可以使用`objdump -d /path/to/binary`命令来进行反汇编⁵。如果你想要在反汇编中插入源代码，你可以使用`objdump -S`命令⁶。此外，如果你想要生成汇编代码，你可以在GCC命令行中添加`-S`选项⁹。
+
+- **ARM交叉编译器反汇编**：在Ubuntu中，你可以使用`arm-linux-gnueabi-objdump -d /path/to/binary`命令来进行反汇编[^10^]。如果你想要对二进制文件进行反汇编，你可以使用`arm-elf-objdump -D -b binary -marm binaryfile.dat`命令[^10^]。
+
+请注意，这些命令可能需要根据你的具体情况进行适当的修改。如果你遇到任何问题，请随时向我询问。我会尽我所能提供帮助。😊
+
+源: 与必应的对话， 2023/10/23
+(1) How to change the disassembly syntax to intel using gdb?. https://stackoverflow.com/questions/55040576/how-to-change-the-disassembly-syntax-to-intel-using-gdb.
+(2) c++ - How to disassemble a binary executable in Linux to get the .... https://stackoverflow.com/questions/5125896/how-to-disassemble-a-binary-executable-in-linux-to-get-the-assembly-code.
+(3) c - Using GCC to produce readable assembly? - Stack Overflow. https://stackoverflow.com/questions/1289881/using-gcc-to-produce-readable-assembly.
+(4) Compilation, Disassembly, and Profiling - University of Kentucky .... https://www.cs.uky.edu/~neil/485/lectures/03-compilation-disassembly.pdf.
+(5) Using objdump for ARM architecture: Disassembling to ARM. https://stackoverflow.com/questions/3859453/using-objdump-for-arm-architecture-disassembling-to-arm.
+(6) GitHub - gzili/8086-disassembler: Disassembler for original Intel 8086/ .... https://github.com/gzili/8086-disassembler.
+(7) 如何使用gdb将反汇编语法更改为英特尔？-腾讯云开发 .... https://cloud.tencent.com/developer/ask/sof/975761.
+(8) Disassembly with Intel style syntax? · Issue #87 · vadimcn/codelldb. https://github.com/vadimcn/codelldb/issues/87.
+(9) compilation - Produce both assembly and object file with gcc/clang .... https://stackoverflow.com/questions/39373803/produce-both-assembly-and-object-file-with-gcc-clang-possible-how.
+(10) Guide to disassemble · GitHub. https://gist.github.com/jarun/ea47cc31f1b482d5586138472139d090.
+(11) cross compiling - ARM compiler with autoconf - Stack Overflow. https://stackoverflow.com/questions/16188228/arm-compiler-with-autoconf.
+(12) ios - Cross Compiling a library from intel to arm - Stack Overflow. https://stackoverflow.com/questions/5832734/cross-compiling-a-library-from-intel-to-arm.
+(13) undefined. http://bb.osmocom.org/trac/wiki/toolchain.
+(14) undefined. http://www.gnu.org/software/binutils/.
+
+
+`objdump -d --disassembler-options=intel param.out`命令是用来反汇编`param.out`文件的。这个命令会将二进制文件`param.out`反汇编成Intel语法的汇编代码¹。
+
+与此相比，GDB（GNU调试器）是一个强大的源代码级别的调试器，它可以让你看到程序在执行过程中发生了什么¹²。你可以在程序运行时设置断点，单步执行代码，查看变量值等¹²。
+
+这两个工具的主要区别在于它们的用途¹²：
+- `objdump`主要用于静态分析，它可以让你查看二进制文件的反汇编输出¹。
+- 而GDB则主要用于动态分析，它可以让你在程序运行时进行调试²。
+
+因此，如果你只是想查看二进制文件的反汇编代码，那么使用`objdump`就足够了。但是，如果你想要深入理解程序的运行过程，那么你可能需要使用GDB来进行动态调试¹²。希望这个答案对你有所帮助！如果你还有其他问题，请随时向我提问。😊
+
+源: 与必应的对话， 2023/10/23
+(1) assembly - debugging with gdb and objdump - Stack Overflow. https://stackoverflow.com/questions/22363215/debugging-with-gdb-and-objdump.
+(2) c - combination of objdump and gdb - Stack Overflow. https://stackoverflow.com/questions/35535553/combination-of-objdump-and-gdb.
+(3) executable - objdump and gdb spits different assembly results - Stack .... https://stackoverflow.com/questions/23491493/objdump-and-gdb-spits-different-assembly-results.
+(4) Usage of GDB and Objdump in Exploit Development - Medium. https://medium.com/@arjuncshekar/usage-of-gdb-and-objdump-in-exploit-development-a-hands-on-exercise-for-reverse-engineering-c9ba05f7174e.
+(5) What's the differenct between `go tool compile` and `go tool objdump .... https://stackoverflow.com/questions/70332316/whats-the-differenct-between-go-tool-compile-and-go-tool-objdump.
