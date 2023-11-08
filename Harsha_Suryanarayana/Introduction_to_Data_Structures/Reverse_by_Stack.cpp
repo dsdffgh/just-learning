@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include "stdio.h"
-#include <stack> //´´½¨Õ»µÄ¿âº¯Êı
+#include <stack> //åˆ›å»ºæ ˆçš„åº“å‡½æ•°
 using namespace std;
 
 /*class Stack
@@ -15,7 +15,7 @@ public:
     int Top();
     bool IsEmpty();
 };
-ÓÃÀà´´½¨Ò»¸öÕ»
+ç”¨ç±»åˆ›å»ºä¸€ä¸ªæ ˆ
 */
 
 #if 1
@@ -41,7 +41,7 @@ int main()
 {
     char C[51];
     printf("Enter the string:");
-    //gets(C);¸Ãº¯ÊıÔÚc++ÖĞÒÑ¾­²»Ö§³ÖÁË
+    //gets(C);è¯¥å‡½æ•°åœ¨c++ä¸­å·²ç»ä¸æ”¯æŒäº†
     cin.getline(C,51) ;
     Reverse(C, strlen(C));
     printf("Output is :%s\n", C);
@@ -49,9 +49,9 @@ int main()
 #endif
 
 #if 0
-//±éÀúÁ´±í
-//µü´ú·½·¨Ê±¼ä¸´ÔÓ¶ÈÊÇO(n),¿Õ¼ä¸´ÔÓ¶ÈÊÇO(1)
-//µİ¹é¶¼ÊÇo(n),ÒşÊ½µØÊ¹ÓÃÁËÕ»
+//éå†é“¾è¡¨
+//è¿­ä»£æ–¹æ³•æ—¶é—´å¤æ‚åº¦æ˜¯O(n),ç©ºé—´å¤æ‚åº¦æ˜¯O(1)
+//é€’å½’éƒ½æ˜¯o(n),éšå¼åœ°ä½¿ç”¨äº†æ ˆ
 void Reverse()
 {
     if(head == NULL) return;

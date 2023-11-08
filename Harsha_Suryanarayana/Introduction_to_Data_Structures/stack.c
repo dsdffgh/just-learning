@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #if 1
-//Á´±íÊµÏÖ Õ» £» Êý×éÊµÏÖÊ¡ÂÔ
+//é“¾è¡¨å®žçŽ° æ ˆ ï¼› æ•°ç»„å®žçŽ°çœç•¥
 struct stack
 {
     int data;
@@ -29,7 +29,7 @@ void Pop()
 
 void Print(struct stack *head)//_using_recursion
 {
-    // ÏÈ´òÓ¡ÔÙµÝ¹é
+    //
     if (head != NULL)
     {
         printf("%d ", head->data);

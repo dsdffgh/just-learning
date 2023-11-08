@@ -21,7 +21,7 @@ struct Node *Insert(struct Node *head, int data, int x)
     }
     else
     {
-        for (int i = 0; i < x - 2; i++) // ÔÚµÚn¸ö²åÈë£¬ÔÚµÚn-1¸öÏÂÍ£ÏÂ
+        for (int i = 0; i < x - 2; i++) // åœ¨ç¬¬nä¸ªæ’å…¥ï¼Œåœ¨ç¬¬n-1ä¸ªä¸‹åœä¸‹
         {
             head = head->next;
         }
@@ -43,7 +43,7 @@ void Delete(struct Node *head, int x)
         free(temp);
         return;
     }
-    for (int i = 0; i < x - 2; i++) // ÔÚµÚn-1¸öÏÂÍ£ÏÂ
+    for (int i = 0; i < x - 2; i++) // åœ¨ç¬¬n-1ä¸ªä¸‹åœä¸‹
     {
         temp = temp->next;
     }
@@ -54,7 +54,7 @@ void Delete(struct Node *head, int x)
 
 void Print_using_recursion(struct Node *head)
 {
-    // ÏÈ´òÓ¡ÔÙµİ¹é
+    // å…ˆæ‰“å°å†é€’å½’
     if (head != NULL)
     {
         printf("%d ", head->data);
@@ -66,8 +66,8 @@ void Print_using_recursion(struct Node *head)
 
 void ReversePrint_using_recursion(struct Node *head)
 {
-    // ÏÈµİ¹éÔÙ´òÓ¡£¬Ò²¼´·´ÏòÊä³ö
-    // µİ¹é»áÈÃº¯ÊıµşÔÚÕ»Àï, ´òÓ¡µÄÊ±ºò, ³öÕ»µÄ·µ»ØÖµ»áµ¹ĞğËÍ¸øprintº¯ÊıÈ¥´òÓ¡
+    // å…ˆé€’å½’å†æ‰“å°ï¼Œä¹Ÿå³åå‘è¾“å‡º
+    // é€’å½’ä¼šè®©å‡½æ•°å åœ¨æ ˆé‡Œ, æ‰“å°çš„æ—¶å€™, å‡ºæ ˆçš„è¿”å›å€¼ä¼šå€’å™é€ç»™printå‡½æ•°å»æ‰“å°
     if (head == NULL)
     {
         printf("\n");
@@ -79,7 +79,7 @@ void ReversePrint_using_recursion(struct Node *head)
 
 int main()
 {
-    struct Node *head = NULL; // ÔÚÏµÍ³±à³ÌÀï¾¡Á¿±ÜÃâÈ«¾Ö±äÁ¿
+    struct Node *head = NULL; // åœ¨ç³»ç»Ÿç¼–ç¨‹é‡Œå°½é‡é¿å…å…¨å±€å˜é‡
 
     head = Insert(head, 2, 1); // 2
     head = Insert(head, 3, 2); // 2,3
