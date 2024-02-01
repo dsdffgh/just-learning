@@ -1,0 +1,128 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/name/workspace/Projects/07/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$	tags	/^ArithmrticCommand	CodeWriter.h	\/^enum ArithmrticCommand {$\/;"	g	language:C++$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+ArithmrticCommand	CodeWriter.c	/^enum ArithmrticCommand {$/;"	g	language:C++	file:
+ArithmrticCommand	CodeWriter.h	/^enum ArithmrticCommand {$/;"	g	language:C++
+ArithmrticCommand	tags	/^ArithmrticCommand	CodeWriter.h	\/^enum ArithmrticCommand {$\/;"	g	language:C++$/;"	g	language:C++	file:
+C_ADD	CodeWriter.c	/^  C_ADD,    \/* integer addition *\/$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+C_ADD	CodeWriter.h	/^    C_ADD, \/* integer addition *\/$/;"	e	language:C++	enum:ArithmrticCommand	access:public
+C_AND	CodeWriter.c	/^  C_AND,    \/* bite-wise And *\/$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+C_AND	CodeWriter.h	/^    C_AND, \/* bite-wise And *\/$/;"	e	language:C++	enum:ArithmrticCommand	access:public
+C_ARITHMETIC	Parser.c	/^#define C_ARITHMETIC /;"	d	language:C++	file:
+C_ARITHMETIC	Parser.h	/^#define C_ARITHMETIC /;"	d	language:C++
+C_CALL	Parser.c	/^#define C_CALL /;"	d	language:C++	file:
+C_CALL	Parser.h	/^#define C_CALL /;"	d	language:C++
+C_EQ	CodeWriter.c	/^  C_EQ,     \/* equality *\/$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+C_EQ	CodeWriter.h	/^    C_EQ, \/* equality *\/$/;"	e	language:C++	enum:ArithmrticCommand	access:public
+C_FUNCTION	Parser.c	/^#define C_FUNCTION /;"	d	language:C++	file:
+C_FUNCTION	Parser.h	/^#define C_FUNCTION /;"	d	language:C++
+C_GOTO	Parser.c	/^#define C_GOTO /;"	d	language:C++	file:
+C_GOTO	Parser.h	/^#define C_GOTO /;"	d	language:C++
+C_GT	CodeWriter.c	/^  C_GT,     \/* greater than *\/$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+C_GT	CodeWriter.h	/^    C_GT, \/* greater than *\/$/;"	e	language:C++	enum:ArithmrticCommand	access:public
+C_IF	Parser.c	/^#define C_IF /;"	d	language:C++	file:
+C_IF	Parser.h	/^#define C_IF /;"	d	language:C++
+C_LABEL	Parser.c	/^#define C_LABEL /;"	d	language:C++	file:
+C_LABEL	Parser.h	/^#define C_LABEL /;"	d	language:C++
+C_LT	CodeWriter.c	/^  C_LT,     \/* less than *\/$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+C_LT	CodeWriter.h	/^    C_LT, \/* less than *\/$/;"	e	language:C++	enum:ArithmrticCommand	access:public
+C_NEG	CodeWriter.c	/^  C_NEG,    \/* arithmetic ngation *\/$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+C_NEG	CodeWriter.h	/^    C_NEG, \/* arithmetic ngation *\/$/;"	e	language:C++	enum:ArithmrticCommand	access:public
+C_NOT	CodeWriter.c	/^  C_NOT,    \/* bite-wise Not *\/$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+C_NOT	CodeWriter.h	/^    C_NOT, \/* bite-wise Not *\/$/;"	e	language:C++	enum:ArithmrticCommand	access:public
+C_OR	CodeWriter.c	/^  C_OR,     \/* bite-wise Or *\/$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+C_OR	CodeWriter.h	/^    C_OR, \/* bite-wise Or *\/$/;"	e	language:C++	enum:ArithmrticCommand	access:public
+C_POP	Parser.c	/^#define C_POP /;"	d	language:C++	file:
+C_POP	Parser.h	/^#define C_POP /;"	d	language:C++
+C_PUSH	Parser.c	/^#define C_PUSH /;"	d	language:C++	file:
+C_PUSH	Parser.h	/^#define C_PUSH /;"	d	language:C++
+C_RETURN	Parser.c	/^#define C_RETURN /;"	d	language:C++	file:
+C_RETURN	Parser.h	/^#define C_RETURN /;"	d	language:C++
+C_SUB	CodeWriter.c	/^  C_SUB,    \/* integer subtraction *\/$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+C_SUB	CodeWriter.h	/^    C_SUB, \/* integer subtraction *\/$/;"	e	language:C++	enum:ArithmrticCommand	access:public
+C_UNKNOWN	CodeWriter.c	/^  C_UNKNOWN \/\/ Default for unsupported commands$/;"	e	language:C++	enum:ArithmrticCommand	file:	access:public
+C_UNKNOWN	CodeWriter.h	/^    C_UNKNOWN \/\/ Default for unsupported commands$/;"	e	language:C++	enum:ArithmrticCommand	access:public
+CodeWriter_INC	CodeWriter.h	/^#define  CodeWriter_INC$/;"	d	language:C++
+DEBUG	CodeWriter.c	/^#define DEBUG /;"	d	language:C++	file:
+DEBUG	CodeWriter.h	/^#define DEBUG /;"	d	language:C++
+DISPLAY_SCR	CodeWriter.c	/^#define DISPLAY_SCR /;"	d	language:C++	file:
+DISPLAY_SCR	CodeWriter.h	/^#define DISPLAY_SCR /;"	d	language:C++
+EXIT_SUCCESS	VMTranslator.c	/^#define EXIT_SUCCESS /;"	d	language:C++	file:
+InputInitializer	Parser.c	/^void *InputInitializer(FILE* openedfile, const char *filename)$/;"	f	language:C++	typeref:typename:void *	signature:(FILE * openedfile,const char * filename)
+InputInitializer	Parser.h	/^FILE* InputInitializer( const char* filename );$/;"	p	language:C++	typeref:typename:FILE *	signature:(const char * filename)
+Parser_INC	Parser.h	/^#define  Parser_INC$/;"	d	language:C++
+Pop	stack.c	/^void Pop()$/;"	f	language:C++	typeref:typename:void	signature:()
+Print	stack.c	/^void Print(struct stack *head)\/\/_using_recursion$/;"	f	language:C++	typeref:typename:void	signature:(struct stack * head)
+Push	stack.c	/^void Push(int data)$/;"	f	language:C++	typeref:typename:void	signature:(int data)
+_add	CodeWriter.c	/^void _add(outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(outfile)
+_add	CodeWriter.h	/^void _add(outfile);$/;"	p	language:C++	typeref:typename:void	signature:(outfile)
+_and	CodeWriter.c	/^void _and(outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(outfile)
+_and	CodeWriter.h	/^void _and(outfile);$/;"	p	language:C++	typeref:typename:void	signature:(outfile)
+_eq	CodeWriter.c	/^void _eq(outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(outfile)
+_eq	CodeWriter.h	/^void _eq(outfile);$/;"	p	language:C++	typeref:typename:void	signature:(outfile)
+_gt	CodeWriter.c	/^void _gt(outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(outfile)
+_gt	CodeWriter.h	/^void _gt(outfile);$/;"	p	language:C++	typeref:typename:void	signature:(outfile)
+_lt	CodeWriter.c	/^void _lt(outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(outfile)
+_lt	CodeWriter.h	/^void _lt(outfile);$/;"	p	language:C++	typeref:typename:void	signature:(outfile)
+_neg	CodeWriter.c	/^void _neg(outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(outfile)
+_neg	CodeWriter.h	/^void _neg(outfile);$/;"	p	language:C++	typeref:typename:void	signature:(outfile)
+_not	CodeWriter.c	/^void _not(outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(outfile)
+_not	CodeWriter.h	/^void _not(outfile);$/;"	p	language:C++	typeref:typename:void	signature:(outfile)
+_or	CodeWriter.c	/^void _or(outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(outfile)
+_or	CodeWriter.h	/^void _or(outfile);$/;"	p	language:C++	typeref:typename:void	signature:(outfile)
+_sub	CodeWriter.c	/^void _sub(outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(outfile)
+_sub	CodeWriter.h	/^void _sub(outfile);$/;"	p	language:C++	typeref:typename:void	signature:(outfile)
+advance	Parser.c	/^void advance(FILE *file, char *currentCommand)$/;"	f	language:C++	typeref:typename:void	signature:(FILE * file,char * currentCommand)
+advance	Parser.h	/^void advance(FILE *file, char *currentCommand);$/;"	p	language:C++	typeref:typename:void	signature:(FILE * file,char * currentCommand)
+arg1	Parser.c	/^char *arg1(char *command, int Type)$/;"	f	language:C++	typeref:typename:char *	signature:(char * command,int Type)
+arg1	Parser.h	/^char *arg1(char *command, int Type);$/;"	p	language:C++	typeref:typename:char *	signature:(char * command,int Type)
+arg2	Parser.c	/^int arg2(char *command, int Type)$/;"	f	language:C++	typeref:typename:int	signature:(char * command,int Type)
+arg2	Parser.h	/^int arg2(char *command, int Type);$/;"	p	language:C++	typeref:typename:int	signature:(char * command,int Type)
+arithmeticCommands	Parser.c	/^const char *arithmeticCommands[] = {"add", "sub", "neg", "eq", "and",$/;"	v	language:C++	typeref:typename:const char * []
+arithmeticcommandType	CodeWriter.c	/^  const enum ArithmrticCommand arithmeticcommandType =$/;"	l	language:C++	function:writeArithmetic	typeref:typename:const enum ArithmrticCommand	file:
+close	CodeWriter.c	/^void close(outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(outfile)
+close	CodeWriter.h	/^void close(outfile);$/;"	p	language:C++	typeref:typename:void	signature:(outfile)
+commandMaxSize	Parser.c	/^#define commandMaxSize /;"	d	language:C++	file:
+commandMaxSize	Parser.h	/^#define commandMaxSize /;"	d	language:C++
+commandType	Parser.c	/^  char *commandType = strtok(command, " ");$/;"	l	language:C++	function:commandType	typeref:typename:char *	file:
+commandType	Parser.c	/^int commandType(char *command)$/;"	f	language:C++	typeref:typename:int	signature:(char * command)
+commandType	Parser.h	/^int commandType(char *command);$/;"	p	language:C++	typeref:typename:int	signature:(char * command)
+currentPosition	Parser.c	/^  long currentPosition = ftell(file);$/;"	l	language:C++	function:hasMoreLines	typeref:typename:long	file:
+data	stack.c	/^    int data;$/;"	m	language:C++	struct:stack	typeref:typename:int	file:	access:public
+file	VMTranslator.c	/^    FILE* file = NULL;$/;"	l	language:C++	function:main	typeref:typename:FILE *	file:
+getArithmeticCommandType	CodeWriter.c	/^enum ArithmrticCommand getArithmeticCommandType(const char *command) {$/;"	f	language:C++	typeref:enum:ArithmrticCommand	signature:(const char * command)
+getArithmeticCommandType	CodeWriter.h	/^enum ArithmrticCommand getArithmeticCommandType(const char* command);$/;"	p	language:C++	typeref:enum:ArithmrticCommand	signature:(const char * command)
+hasMoreLines	Parser.c	/^bool hasMoreLines(FILE *file)$/;"	f	language:C++	typeref:typename:bool	signature:(FILE * file)
+hasMoreLines	Parser.h	/^bool hasMoreLines(FILE *file);$/;"	p	language:C++	typeref:typename:bool	signature:(FILE * file)
+i	Parser.c	/^  for (int i = 0;$/;"	l	language:C++	function:isArithmeticLogicalCommand	typeref:typename:int	file:
+isArithmeticLogicalCommand	Parser.c	/^bool isArithmeticLogicalCommand(char *command)$/;"	f	language:C++	typeref:typename:bool	signature:(char * command)
+isArithmeticLogicalCommand	Parser.h	/^bool isArithmeticLogicalCommand(char *command);$/;"	p	language:C++	typeref:typename:bool	signature:(char * command)
+line	Parser.c	/^  char line[lineMaxSize];$/;"	l	language:C++	function:hasMoreLines	typeref:typename:char[]	file:
+lineMaxSize	Parser.c	/^#define lineMaxSize /;"	d	language:C++	file:
+lineMaxSize	Parser.h	/^#define lineMaxSize /;"	d	language:C++
+link	stack.c	/^    struct stack *link;$/;"	m	language:C++	struct:stack	typeref:struct:stack *	file:	access:public
+main	VMTranslator.c	/^int main ( int argc, char *argv[] )$/;"	f	language:C++	typeref:typename:int	signature:(int argc,char * argv[])
+main	stack.c	/^int main()$/;"	f	language:C++	typeref:typename:int	signature:()
+openedfile	Parser.c	/^  FILE *openedfile = fopen(filename ".vm", "r");$/;"	l	language:C++	function:InputInitializer	typeref:typename:FILE *	file:
+result	Parser.c	/^  char *result = fgets(line, sizeof(line), file);$/;"	l	language:C++	function:hasMoreLines	typeref:typename:char *	file:
+stack	stack.c	/^struct stack$/;"	s	language:C++	file:
+stack::data	stack.c	/^    int data;$/;"	m	language:C++	struct:stack	typeref:typename:int	file:	access:public
+stack::link	stack.c	/^    struct stack *link;$/;"	m	language:C++	struct:stack	typeref:struct:stack *	file:	access:public
+temp	stack.c	/^    struct stack *temp = (struct stack *)malloc(sizeof(struct stack));$/;"	l	language:C++	function:Push	typeref:struct:stack *	file:
+temp	stack.c	/^    struct stack *temp;$/;"	l	language:C++	function:Pop	typeref:struct:stack *	file:
+token	Parser.c	/^    char *token = strtok(command, " ");$/;"	l	language:C++	function:arg1	typeref:typename:char *	file:
+token	Parser.c	/^    char *token = strtok(command, " ");$/;"	l	language:C++	function:arg2	typeref:typename:char *	file:
+top	stack.c	/^struct stack *top = NULL;$/;"	v	language:C++	typeref:struct:stack *
+writeArithmetic	CodeWriter.c	/^void writeArithmetic(const char *command, FILE *outfile) {$/;"	f	language:C++	typeref:typename:void	signature:(const char * command,FILE * outfile)
+writeArithmetic	CodeWriter.h	/^void writeArithmetic(const char *command, FILE *outfile);$/;"	p	language:C++	typeref:typename:void	signature:(const char * command,FILE * outfile)
+writePushPop	CodeWriter.c	/^void writePushPop(int commandType, const char *segment, int index,$/;"	f	language:C++	typeref:typename:void	signature:(int commandType,const char * segment,int index,FILE * outfile)
+writePushPop	CodeWriter.h	/^void writePushPop(int commandType, const char *segment, int index, FILE* outfile);$/;"	p	language:C++	typeref:typename:void	signature:(int commandType,const char * segment,int index,FILE * outfile)

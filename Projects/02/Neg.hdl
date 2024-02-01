@@ -1,0 +1,18 @@
+// This file is by Qi Yang.
+// File name: projects/02/Neg.hdl
+
+
+
+/**
+ * 16-bit Neg: 
+ * out = 0 if (In >= 0)
+ *       1 if (In < 0)
+ */
+
+CHIP Neg {
+    IN in[16];
+    OUT out;
+
+    PARTS:
+    And(a = in[15], b = true, out = out);
+}

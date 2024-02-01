@@ -1,0 +1,20 @@
+// This file is by Qi Yang.
+// File name: projects/02/Or16Way.hdl
+
+
+
+/**
+ * 16-way Or: 
+ * out = (in[0] or in[1] or ... or in[15])
+ */
+
+CHIP Or16Way {
+    IN in[16];
+    OUT out;
+
+    PARTS:
+    // Put your code here:
+	Or8Way(in = in[0..7], out = tmp1);
+	Or8Way(in = in[8..15], out = tmp2);
+	Or(a = tmp1, b = tmp2, out = out);
+}
