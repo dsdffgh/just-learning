@@ -301,30 +301,30 @@ void _lt(outfile) {
  */
 void _and(outfile) {
   // sp--, because sp points above the top element of the stack.
-  fprintf(outfile, "@SP\n",
-		   "M=M-1\n"); // *SP = *SP - 1
+  fprintf(outfile, "@SP\n");
+  fprintf(outfile, "M=M-1\n"); // *SP = *SP - 1
   // take out the first element, P1
-  fprintf(outfile, "@SP\n",
-		   "A=M\n"); // A = M[0] = *SP
+  fprintf(outfile, "@SP\n");
+  fprintf(outfile, "A=M\n"); // A = M[0] = *SP
   fprintf(outfile, "D=M\n"); // D = M[A] = M[*SP] = **SP = *DATA
 
   // sp--
-  fprintf(outfile, "@SP\n",
-		   "M=M-1\n"); // *SP = *SP - 1
+  fprintf(outfile, "@SP\n");
+  fprintf(outfile, "M=M-1\n"); // *SP = *SP - 1
   // take out the first element, P2
-  fprintf(outfile, "@SP\n",
-		   "A=M\n"); // A = M[0] = *SP
+  fprintf(outfile, "@SP\n");
+  fprintf(outfile, "A=M\n"); // A = M[0] = *SP
   fprintf(outfile, "A=M\n"); // A = M[A] = M[*SP] = **SP = *DATA
 
   // perform operations on operands
   fprintf(outfile, "D=D&A\n");
 
   // push result
-  fprintf(outfile, "@SP\n",
-		   "A=M\n", );
+  fprintf(outfile, "@SP\n");
+  fprintf(outfile, "A=M\n", );
   fprintf(outfile, "M=D\n", );
-  fprintf(outfile, "@SP\n",
-		   "M=M+1\n"); // *SP = *SP + 1
+  fprintf(outfile, "@SP\n");
+  fprintf(outfile, "M=M+1\n"); // *SP = *SP + 1
 } /* -----  end of function _and  ----- */
 
 /* 
@@ -335,8 +335,8 @@ void _and(outfile) {
  */
 void _or(outfile) {
   // sp--, because sp points above the top element of the stack.
-  fprintf(outfile, "@SP\n",
-		   "M=M-1\n"); // *SP = *SP - 1
+  fprintf(outfile, "@SP\n");
+  fprintf(outfile, "M=M-1\n"); // *SP = *SP - 1
   // take out the first element, P1
   fprintf(outfile, "@SP\n");
   fprintf(outfile, "A=M\n"); // A = M[0] = *SP
