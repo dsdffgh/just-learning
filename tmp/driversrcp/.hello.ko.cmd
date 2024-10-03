@@ -1,1 +1,0 @@
-cmd_/home/driversrcp/hello.ko := ld -r -m elf_i386 -T /usr/src/kernels/2.6.35.14-106.fc14.i686/scripts/module-common.lds --build-id -o /home/driversrcp/hello.ko /home/driversrcp/hello.o /home/driversrcp/hello.mod.o

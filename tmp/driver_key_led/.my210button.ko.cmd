@@ -1,1 +1,0 @@
-cmd_/home/driver_key_led/my210button.ko := arm-linux-ld -EL -r  -T /home/kernel/linux-2.6.38/scripts/module-common.lds --build-id  -o /home/driver_key_led/my210button.ko /home/driver_key_led/my210button.o /home/driver_key_led/my210button.mod.o
