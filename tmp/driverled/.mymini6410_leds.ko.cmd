@@ -1,0 +1,1 @@
+cmd_/home/driverled/mymini6410_leds.ko := arm-linux-ld -EL -r  -T /home/kernel/linux-2.6.38/scripts/module-common.lds --build-id  -o /home/driverled/mymini6410_leds.ko /home/driverled/mymini6410_leds.o /home/driverled/mymini6410_leds.mod.o

@@ -59,6 +59,7 @@ BSTNode *Find(BSTNode *current, int data)
 		return Find(current->left, data);
 	if (data > current->data)
 		return Find(current->right, data);
+	return nullptr;
 }
 
 BSTNode *FindMax(BSTNode *current)

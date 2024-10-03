@@ -1,0 +1,2178 @@
+cscope 15 C:\Users\Theonesssssssss\Documents\Workspace\just-learning\Algorithm\Tree\AVL_Tree"               0000010742
+	@C:\Users\Theonesssssssss\Documents\Workspace\just-learning\Algorithm\Tree\AVL_Tree\AVL.cpp
+
+1 
+	~"AVL.h
+"
+
+6 
+AVLNode
+ *
+	$GëNewNode
+(
+d©a
+)
+
+8 
+AVLNode
+ *
+Node
+ = 
+√w
+ AVLNode;
+
+9 
+Node
+->
+d©a
+ = data;
+
+10 
+Node
+->
+À·
+ = Node->
+right
+ = 
+nuŒ±r
+;
+
+11  
+Node
+;
+
+12 
+	}
+}
+
+17 
+	$Le·RŸ©e
+(
+AVLNode
+ *
+cuºít
+)
+
+19 i‡(!
+cuºít
+)
+
+23 
+AVLNode
+ *
+tmpF‹C⁄Êi˘
+ = 
+nuŒ±r
+;
+
+24 i‡–
+cuºít
+->
+right
+ ) {
+
+25 i‡–
+cuºít
+->
+right
+->
+À·
+ )
+
+26 
+tmpF‹C⁄Êi˘
+ = 
+cuºít
+->
+right
+->
+À·
+;
+
+27 
+cuºít
+->
+right
+->
+À·
+ = current;
+
+28 
+cuºít
+->
+right
+ = 
+tmpF‹C⁄Êi˘
+;
+
+30 
+	}
+}
+
+35 
+	$RightRŸ©e
+(
+AVLNode
+ *
+cuºít
+)
+
+37 i‡(!
+cuºít
+)
+
+41 
+AVLNode
+ *
+tmpF‹C⁄Êi˘
+ = 
+nuŒ±r
+;
+
+42 i‡–
+cuºít
+->
+À·
+ ) {
+
+43 i‡–
+cuºít
+->
+À·
+->
+right
+ )
+
+44 
+tmpF‹C⁄Êi˘
+ = 
+cuºít
+->
+À·
+->
+right
+;
+
+45 
+cuºít
+->
+À·
+->
+right
+ = current;
+
+46 
+cuºít
+->
+À·
+ = 
+tmpF‹C⁄Êi˘
+;
+
+48 
+	}
+}
+
+53 
+	$RŸ©e
+(
+AVLNode
+ *
+cuºít
+)
+
+55 i‡(!
+cuºít
+)
+
+57 
+cuºítBÆ™cögFa˘‹
+ = 
+	`GëBÆ™cögFa˘‹
+(
+cuºít
+);
+
+58 i‡–
+cuºítBÆ™cögFa˘‹
+ < -1 )
+
+60 
+cuºít_RightBÆ™cögFa˘‹
+ = 
+	`GëBÆ™cögFa˘‹
+(
+cuºít
+->
+right
+);
+
+61 if–
+cuºít_RightBÆ™cögFa˘‹
+ == -1 )
+
+62 
+	`Le·RŸ©e
+(
+cuºít
+);
+
+63 i‡–
+cuºít_RightBÆ™cögFa˘‹
+ == 1 )
+
+65 
+	`RightRŸ©e
+(
+cuºít
+->
+right
+);
+
+66 
+	`Le·RŸ©e
+(
+cuºít
+);
+
+69 i‡–
+cuºítBÆ™cögFa˘‹
+ > 1 )
+
+71 
+cuºít_Le·BÆ™cögFa˘‹
+ = 
+	`GëBÆ™cögFa˘‹
+(
+cuºít
+->
+À·
+);
+
+72 if–
+cuºít_Le·BÆ™cögFa˘‹
+ == 1 )
+
+73 
+	`RightRŸ©e
+(
+cuºít
+);
+
+74 i‡–
+cuºít_Le·BÆ™cögFa˘‹
+ == -1 )
+
+76 
+	`Le·RŸ©e
+(
+cuºít
+->
+À·
+);
+
+77 
+	`RightRŸ©e
+(
+cuºít
+);
+
+84 
+	}
+}
+
+89 
+AVLNode
+ *
+	$In£π
+(
+AVLNode
+ *
+cuºít
+, 
+d©a
+)
+
+91 i‡(!
+cuºít
+)
+
+93 
+cuºít
+ = 
+	`GëNewNode
+(
+d©a
+);
+
+95 i‡(
+d©a
+ < 
+cuºít
+->data)
+
+96 
+cuºít
+->
+À·
+ = 
+	`In£π
+(cuºít->À·, 
+d©a
+);
+
+97 i‡(
+d©a
+ > 
+cuºít
+->data)
+
+98 
+cuºít
+->
+right
+ = 
+	`In£π
+(cuºít->right, 
+d©a
+);
+
+99 
+	`RŸ©e
+(
+cuºít
+);
+
+100  
+cuºít
+;
+
+101 
+	}
+}
+
+106 
+AVLNode
+ *
+	$Föd
+(
+AVLNode
+ *
+cuºít
+, 
+d©a
+)
+
+108 i‡(!
+cuºít
+)
+
+110 
+cout
+ << "NONE!" << 
+ídl
+;
+
+111  
+nuŒ±r
+;
+
+113 i‡(
+d©a
+ =
+cuºít
+->data)
+
+115  
+cuºít
+;
+
+117 i‡(
+d©a
+ < 
+cuºít
+->data)
+
+118  
+	`Föd
+(
+cuºít
+->
+À·
+, 
+d©a
+);
+
+119 i‡(
+d©a
+ > 
+cuºít
+->data)
+
+120  
+	`Föd
+(
+cuºít
+->
+right
+, 
+d©a
+);
+
+121  
+nuŒ±r
+;
+
+122 
+	}
+}
+
+124 
+AVLNode
+ *
+	$FödMax
+(
+AVLNode
+ *
+cuºít
+)
+
+126 i‡(!
+cuºít
+)
+
+128  
+nuŒ±r
+;
+
+130 
+cuºít
+->
+right
+)
+
+132 
+cuºít
+ = cuºít->
+right
+;
+
+134  
+cuºít
+;
+
+135 
+	}
+}
+
+137 
+AVLNode
+ *
+	$FödMö
+(
+AVLNode
+ *
+cuºít
+)
+
+139 i‡(!
+cuºít
+)
+
+141  
+nuŒ±r
+;
+
+143 
+cuºít
+->
+À·
+)
+
+145 
+cuºít
+ = cuºít->
+À·
+;
+
+147  
+cuºít
+;
+
+148 
+	}
+}
+
+153 
+AVLNode
+ *
+	$Dñëe
+(
+AVLNode
+ *
+cuºít
+, 
+d©a
+)
+
+155 i‡(!
+cuºít
+)
+
+157  
+nuŒ±r
+;
+
+159 i‡(
+d©a
+ > 
+cuºít
+->data)
+
+160 
+cuºít
+->
+right
+ = 
+	`Dñëe
+(cuºít->right, 
+d©a
+);
+
+161 i‡(
+d©a
+ < 
+cuºít
+->data)
+
+162 
+cuºít
+->
+À·
+ = 
+	`Dñëe
+(cuºít->À·, 
+d©a
+);
+
+166 i‡(!
+cuºít
+->
+À·
+ && !cuºít->
+right
+)
+
+168 
+dñëe
+ 
+cuºít
+;
+
+169 
+cuºít
+ = 
+nuŒ±r
+;
+
+172 i‡(!
+cuºít
+->
+À·
+ || !cuºít->
+right
+)
+
+174 i‡(
+cuºít
+->
+À·
+)
+
+176 
+AVLNode
+ *
+ãmp
+ = 
+cuºít
+;
+
+177 
+cuºít
+ = cuºít->
+À·
+;
+
+178 
+dñëe
+ 
+ãmp
+;
+
+179 
+ãmp
+ = 
+nuŒ±r
+;
+
+183 
+AVLNode
+ *
+ãmp
+ = 
+cuºít
+;
+
+184 
+cuºít
+ = cuºít->
+right
+;
+
+185 
+dñëe
+ 
+ãmp
+;
+
+186 
+ãmp
+ = 
+nuŒ±r
+;
+
+192 
+AVLNode
+ *
+ãmp
+ = 
+	`FödMö
+(
+cuºít
+->
+right
+);
+
+193 
+cuºít
+->
+d©a
+ = 
+ãmp
+->data;
+
+194 
+ãmp
+ = 
+	`Dñëe
+—emp, 
+d©a
+);
+
+198 
+	`RŸ©e
+(
+cuºít
+);
+
+199  
+cuºít
+;
+
+200 
+	}
+}
+
+206 
+	$LevñOrdîTøvîßl
+(
+AVLNode
+ *
+cuºít
+)
+
+208 
+queue
+<
+AVLNode
+ *> 
+buckë
+;
+
+209 i‡(!
+cuºít
+)
+
+211 
+buckë
+.
+	`push
+(
+cuºít
+);
+
+212 !
+buckë
+.
+	`em±y
+())
+
+214 
+size
+ = 
+buckë
+.
+	`size
+();
+
+215 
+cout
+ << "[ ";
+
+216 
+i
+ = 0; i < 
+size
+; i++)
+
+218 
+cuºít
+ = 
+buckë
+.
+	`‰⁄t
+();
+
+219 
+cout
+ << 
+cuºít
+->
+d©a
+ << ' ';
+
+220 
+buckë
+.
+	`p›
+();
+
+221 i‡(
+cuºít
+->
+À·
+)
+
+222 
+buckë
+.
+	`push
+(
+cuºít
+->
+À·
+);
+
+223 i‡(
+cuºít
+->
+right
+)
+
+224 
+buckë
+.
+	`push
+(
+cuºít
+->
+right
+);
+
+226 
+cout
+ << "]";
+
+228 
+	}
+}
+
+233 
+	$¥e‹dîTøvîßl_ªcursi⁄
+(
+AVLNode
+ *
+cuºít
+)
+
+235 i‡(!
+cuºít
+)
+
+237 
+cout
+ << 
+cuºít
+->
+d©a
+ << ' ';
+
+238 i‡(
+cuºít
+->
+À·
+)
+
+239 
+	`¥e‹dîTøvîßl_ªcursi⁄
+(
+cuºít
+->
+À·
+);
+
+240 i‡(
+cuºít
+->
+right
+)
+
+241 
+	`¥e‹dîTøvîßl_ªcursi⁄
+(
+cuºít
+->
+right
+);
+
+242 
+	}
+}
+
+246 
+	$¥e‹dîTøvîßl_Iãøã
+(
+AVLNode
+ *
+cuºít
+)
+
+248 
+°ack
+<
+AVLNode
+ *> 
+buckë
+;
+
+249 i‡(!
+cuºít
+)
+
+251 
+buckë
+.
+	`push
+(
+cuºít
+);
+
+252 !
+buckë
+.
+	`em±y
+())
+
+254 
+cuºít
+ = 
+buckë
+.
+	`t›
+();
+
+255 
+cout
+ << 
+cuºít
+->
+d©a
+ << ' ';
+
+256 
+buckë
+.
+	`p›
+();
+
+257 i‡(
+cuºít
+->
+right
+)
+
+258 
+buckë
+.
+	`push
+(
+cuºít
+->
+right
+);
+
+259 i‡(
+cuºít
+->
+À·
+)
+
+260 
+buckë
+.
+	`push
+(
+cuºít
+->
+À·
+);
+
+262 
+	}
+}
+
+266 
+	$In‹dîTøvîrßl
+(
+AVLNode
+ *
+cuºít
+)
+
+268 
+°ack
+<
+AVLNode
+ *> 
+buckë
+;
+
+269 i‡(!
+cuºít
+)
+
+271 
+cuºít
+ || !
+buckë
+.
+	`em±y
+())
+
+273 i‡(
+cuºít
+)
+
+275 
+buckë
+.
+	`push
+(
+cuºít
+);
+
+276 
+cuºít
+ = cuºít->
+À·
+;
+
+280 
+cuºít
+ = 
+buckë
+.
+	`t›
+();
+
+281 
+cout
+ << 
+cuºít
+->
+d©a
+ << ' ';
+
+282 
+buckë
+.
+	`p›
+();
+
+283 
+cuºít
+ = cuºít->
+right
+;
+
+286 
+	}
+}
+
+292 
+	$In‹dîTøvîrßl_univîßl
+(
+AVLNode
+ *
+cuºít
+)
+
+294 
+°ack
+<
+AVLNode
+ *> 
+buckë
+;
+
+295 i‡(!
+cuºít
+)
+
+297 
+buckë
+.
+	`push
+(
+cuºít
+);
+
+298 !
+buckë
+.
+	`em±y
+())
+
+301 
+cuºít
+ = 
+buckë
+.
+	`t›
+();
+
+302 i‡(
+cuºít
+)
+
+304 
+buckë
+.
+	`p›
+();
+
+305 i‡(
+cuºít
+->
+right
+)
+
+306 
+buckë
+.
+	`push
+(
+cuºít
+->
+right
+);
+
+307 
+buckë
+.
+	`push
+(
+cuºít
+);
+
+308 
+buckë
+.
+	`push
+(
+nuŒ±r
+);
+
+309 i‡(
+cuºít
+->
+À·
+)
+
+310 
+buckë
+.
+	`push
+(
+cuºít
+->
+À·
+);
+
+314 
+buckë
+.
+	`p›
+();
+
+315 
+cuºít
+ = 
+buckë
+.
+	`t›
+();
+
+316 
+buckë
+.
+	`p›
+();
+
+317 
+cout
+ << 
+cuºít
+->
+d©a
+ << ' ';
+
+320 
+	}
+}
+
+325 
+boﬁ
+ 
+	$IsBST
+(
+AVLNode
+ *
+cuºít
+, 
+MöVÆ
+, 
+MaxVÆ
+)
+
+327 i‡(!
+cuºít
+)
+
+328  
+åue
+;
+
+329 i‡(
+cuºít
+->
+d©a
+ > 
+MöVÆ
+ && cuºít->d©®< 
+MaxVÆ
+ && 
+	`IsBST
+(cuºít->
+À·
+, MöVÆ, cuºít->d©aË&& IsBST(cuºít->
+right
+, current->data, MaxVal))
+
+330  
+åue
+;
+
+332  
+Ál£
+;
+
+333 
+	}
+}
+
+335 
+boﬁ
+ 
+	$IsAVL
+(
+AVLNode
+* 
+roŸ
+) {
+
+337 i‡(
+roŸ
+ =
+nuŒ±r
+)
+
+338  
+åue
+;
+
+341 
+À·Height
+ = (
+roŸ
+->
+À·
+ =
+nuŒ±r
+Ë? 0 : 
+	`GëHeightOfNode
+(root->left);
+
+344 
+rightHeight
+ = (
+roŸ
+->
+right
+ =
+nuŒ±r
+Ë? 0 : 
+	`GëHeightOfNode
+(root->right);
+
+347  
+	`abs
+(
+À·Height
+ - 
+rightHeight
+Ë<1 && 
+	`IsAVL
+(
+roŸ
+->
+À·
+Ë&& IsAVL‘oŸ->
+right
+);
+
+348 
+	}
+}
+
+355 
+AVLNode
+ *
+	$Gësuc˚ss‹
+(
+AVLNode
+ *
+roŸ
+, 
+d©a
+)
+
+358 
+AVLNode
+ *
+cuºít
+ = 
+	`Föd
+(
+roŸ
+, 
+d©a
+);
+
+359 i‡(!
+cuºít
+)
+
+360  
+nuŒ±r
+;
+
+362 i‡((
+cuºít
+->
+right
+Ë!
+nuŒ±r
+)
+
+363  
+	`FödMö
+(
+cuºít
+->
+right
+);
+
+367 
+AVLNode
+ *
+suc˚ss‹
+ = 
+nuŒ±r
+;
+
+368 
+AVLNode
+ *
+™˚°‹
+ = 
+roŸ
+;
+
+369 
+™˚°‹
+ !
+cuºít
+)
+
+371 i‡(
+™˚°‹
+->
+d©a
+ > data)
+
+373 
+suc˚ss‹
+ = 
+™˚°‹
+;
+
+374 
+™˚°‹
+ =án˚°‹->
+À·
+;
+
+378 
+™˚°‹
+ =án˚°‹->
+right
+;
+
+381  
+suc˚ss‹
+;
+
+383 
+	}
+}
+
+388 
+	go°ªam
+ &
+	g›î©‹
+<<(o°ªam &
+	gos
+, c⁄° 
+	gAVLNode
+ &
+	gNode
+)
+
+390 
+	gos
+ << 
+	gNode
+.
+	gd©a
+;
+
+391  
+	gos
+;
+
+397 
+	$GëHeightOfNode
+(
+AVLNode
+ *
+cuºít
+)
+
+399 
+height
+ = 0;
+
+400 if(!
+cuºít
+)
+
+401  
+height
+;
+
+402 
+queue
+<
+AVLNode
+ *> 
+buckë
+;
+
+403 
+buckë
+.
+	`push
+(
+cuºít
+);
+
+404 !
+buckë
+.
+	`em±y
+())
+
+406 
+size
+ = 
+buckë
+.
+	`size
+();
+
+407 
+i
+ = 0; i < 
+size
+ ; i++)
+
+409 
+cuºít
+ = 
+buckë
+.
+	`‰⁄t
+();
+
+410 
+buckë
+.
+	`p›
+();
+
+411 if(
+size
+==0Ë
+height
+++;
+
+412 if(
+cuºít
+->
+À·
+)
+
+413 
+buckë
+.
+	`push
+(
+cuºít
+->
+À·
+);
+
+414 i‡(
+cuºít
+->
+right
+)
+
+415 
+buckë
+.
+	`push
+(
+cuºít
+->
+right
+);
+
+418  
+height
+;
+
+419 
+	}
+}
+
+424 
+	$GëBÆ™cögFa˘‹
+(
+AVLNode
+ *
+cuºít
+)
+
+426 i‡–
+cuºít
+ )
+
+427  ( 
+	`GëHeightOfNode
+(
+cuºít
+->
+À·
+Ë- GëHeightOfNode(cuºít->
+right
+) );
+
+429  (Ë
+EOF
+;
+
+430 
+	}
+}
+
+435 
+	$maö
+()
+
+437 
+AVLNode
+ *
+roŸ
+ = 
+nuŒ±r
+;
+
+439 
+öputD©a
+[] = {14, 9, 5, 17, 11, 12, 7, 19, 16, 27};
+
+441 
+cout
+ << "Inserting data into AVLÅree...\n";
+
+442 
+i
+ = 0; i < 10; ++i) {
+
+443 
+roŸ
+ = 
+	`In£π
+‘oŸ, 
+öputD©a
+[
+i
+]);
+
+444 
+cout
+ << "Tªêa·î in£πög " << 
+öputD©a
+[
+i
+] << ":\n";
+
+445 
+	`LevñOrdîTøvîßl
+(
+roŸ
+);
+
+446 
+cout
+ << "\n";
+
+447 
+cout
+ << "BÆ™cög Fa˘‹ o‡roŸá·î in£πög " << 
+öputD©a
+[
+i
+] << ": " << 
+	`GëBÆ™cögFa˘‹
+(
+roŸ
+) << "\n\n";
+
+449 if–
+	`IsBST
+(
+roŸ
+Ë&& 
+	`IsAVL
+(root)) {
+
+450 
+cout
+ << "ThisÅree isá valid AVL Tree!";
+
+452 
+cout
+ << "ThisÅree isÇotá valid AVL Tree!";
+
+455 
+cout
+ << "InorderÅraversal ofÅhe constructed AVLÅree is: ";
+
+456 
+	`In‹dîTøvîrßl
+(
+roŸ
+);
+
+457 
+cout
+ << 
+ídl
+;
+
+459 
+cout
+ << "\nI†ou∏c⁄°ru˘edÅªêBSTªê? (1:Yes; 0:NoË=> " << 
+	`IsBST
+(
+roŸ
+) << "\n";
+
+461 
+dñëeNode
+ = 17;
+
+462 
+cout
+ << "\nDñëögÇodê" << 
+dñëeNode
+ << " fromÅhe constructed AVLÅree...\n";
+
+463 
+roŸ
+ = 
+	`Dñëe
+‘oŸ, 
+dñëeNode
+);
+
+464 
+cout
+ << "After deleting, updated AVL Tree is: ";
+
+465 
+	`LevñOrdîTøvîßl
+(
+roŸ
+);
+
+466 
+cout
+ << 
+ídl
+;
+
+469 
+	}
+}
+
+	@C:\Users\Theonesssssssss\Documents\Workspace\just-learning\Algorithm\Tree\AVL_Tree\AVL.h
+
+1 #i‚de‡
+__AVL_H__
+
+
+2 
+	#__AVL_H_
+
+
+	)
+
+4 
+	~<io°ªam
+>
+
+5 
+	~<Æg‹ôhm
+>
+
+6 
+	~<°ack
+>
+
+7 
+	~<queue
+>
+
+8 
+	~<m©h.h
+>
+
+9 
+usög
+ 
+«me•a˚
+ 
+	g°d
+;
+
+14 
+	sAVLNode
+
+
+16 
+	md©a
+;
+
+17 
+AVLNode
+ *
+	mÀ·
+;
+
+18 
+AVLNode
+ *
+	mright
+;
+
+21 
+AVLNode
+ *
+GëNewNode
+(
+d©a
+);
+
+22 
+Le·RŸ©e
+(
+AVLNode
+ *
+cuºít
+);
+
+23 
+RightRŸ©e
+(
+AVLNode
+ *
+cuºít
+);
+
+24 
+RŸ©e
+(
+AVLNode
+ *
+cuºít
+);
+
+25 
+AVLNode
+ *
+In£π
+(AVLNodê*
+cuºít
+, 
+d©a
+);
+
+26 
+AVLNode
+ *
+Föd
+(AVLNodê*
+cuºít
+, 
+d©a
+);
+
+27 
+AVLNode
+ *
+FödMax
+(AVLNodê*
+cuºít
+);
+
+28 
+AVLNode
+ *
+FödMö
+(AVLNodê*
+cuºít
+);
+
+29 
+AVLNode
+ *
+Dñëe
+(AVLNodê*
+cuºít
+, 
+d©a
+);
+
+30 
+LevñOrdîTøvîßl
+(
+AVLNode
+ *
+cuºít
+);
+
+31 
+¥e‹dîTøvîßl_ªcursi⁄
+(
+AVLNode
+ *
+cuºít
+);
+
+32 
+¥e‹dîTøvîßl_Iãøã
+(
+AVLNode
+ *
+cuºít
+);
+
+33 
+In‹dîTøvîrßl
+(
+AVLNode
+ *
+cuºít
+);
+
+34 
+In‹dîTøvîrßl_univîßl
+(
+AVLNode
+ *
+cuºít
+);
+
+35 
+boﬁ
+ 
+IsBST
+(
+AVLNode
+ *
+cuºít
+, 
+MöVÆ
+ = 
+INT32_MIN
+, 
+MaxVÆ
+ = 
+INT32_MAX
+);
+
+36 
+boﬁ
+ 
+isAVL
+(
+AVLNode
+* 
+roŸ
+);
+
+37 
+AVLNode
+ *
+Gësuc˚ss‹
+(AVLNodê*
+roŸ
+, 
+d©a
+);
+
+38 
+	go°ªam
+ &
+	g›î©‹
+<<(o°ªam &
+	gos
+, c⁄° 
+	gAVLNode
+ &
+	gNode
+);
+
+39 
+GëHeightOfNode
+(
+AVLNode
+ *
+cuºít
+);
+
+40 
+GëBÆ™cögFa˘‹
+(
+AVLNode
+ *
+cuºít
+);
+
+	@AVL.h
+
+1 #i‚de‡
+__AVL_H__
+
+
+2 
+	#__AVL_H_
+
+
+	)
+
+4 
+	~<io°ªam
+>
+
+5 
+	~<Æg‹ôhm
+>
+
+6 
+	~<°ack
+>
+
+7 
+	~<queue
+>
+
+8 
+	~<m©h.h
+>
+
+9 
+usög
+ 
+«me•a˚
+ 
+	g°d
+;
+
+14 
+	sAVLNode
+
+
+16 
+	md©a
+;
+
+17 
+AVLNode
+ *
+	mÀ·
+;
+
+18 
+AVLNode
+ *
+	mright
+;
+
+21 
+AVLNode
+ *
+GëNewNode
+(
+d©a
+);
+
+22 
+Le·RŸ©e
+(
+AVLNode
+ *
+cuºít
+);
+
+23 
+RightRŸ©e
+(
+AVLNode
+ *
+cuºít
+);
+
+24 
+RŸ©e
+(
+AVLNode
+ *
+cuºít
+);
+
+25 
+AVLNode
+ *
+In£π
+(AVLNodê*
+cuºít
+, 
+d©a
+);
+
+26 
+AVLNode
+ *
+Föd
+(AVLNodê*
+cuºít
+, 
+d©a
+);
+
+27 
+AVLNode
+ *
+FödMax
+(AVLNodê*
+cuºít
+);
+
+28 
+AVLNode
+ *
+FödMö
+(AVLNodê*
+cuºít
+);
+
+29 
+AVLNode
+ *
+Dñëe
+(AVLNodê*
+cuºít
+, 
+d©a
+);
+
+30 
+LevñOrdîTøvîßl
+(
+AVLNode
+ *
+cuºít
+);
+
+31 
+¥e‹dîTøvîßl_ªcursi⁄
+(
+AVLNode
+ *
+cuºít
+);
+
+32 
+¥e‹dîTøvîßl_Iãøã
+(
+AVLNode
+ *
+cuºít
+);
+
+33 
+In‹dîTøvîrßl
+(
+AVLNode
+ *
+cuºít
+);
+
+34 
+In‹dîTøvîrßl_univîßl
+(
+AVLNode
+ *
+cuºít
+);
+
+35 
+boﬁ
+ 
+IsBST
+(
+AVLNode
+ *
+cuºít
+, 
+MöVÆ
+ = 
+INT32_MIN
+, 
+MaxVÆ
+ = 
+INT32_MAX
+);
+
+36 
+boﬁ
+ 
+isAVL
+(
+AVLNode
+* 
+roŸ
+);
+
+37 
+AVLNode
+ *
+Gësuc˚ss‹
+(AVLNodê*
+roŸ
+, 
+d©a
+);
+
+38 
+	go°ªam
+ &
+	g›î©‹
+<<(o°ªam &
+	gos
+, c⁄° 
+	gAVLNode
+ &
+	gNode
+);
+
+39 
+GëHeightOfNode
+(
+AVLNode
+ *
+cuºít
+);
+
+40 
+GëBÆ™cögFa˘‹
+(
+AVLNode
+ *
+cuºít
+);
+
+	@
+1
+.
+0
+3
+186
+C:\Users\Theonesssssssss\Documents\Workspace\just-learning\Algorithm\Tree\AVL_Tree\AVL.cpp
+C:\Users\Theonesssssssss\Documents\Workspace\just-learning\Algorithm\Tree\AVL_Tree\AVL.h
+AVL.h

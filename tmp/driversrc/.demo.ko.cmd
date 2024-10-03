@@ -1,0 +1,1 @@
+cmd_/home/driversrc/demo.ko := ld -r -m elf_i386 -T /usr/src/kernels/2.6.35.14-106.fc14.i686/scripts/module-common.lds --build-id -o /home/driversrc/demo.ko /home/driversrc/demo.o /home/driversrc/demo.mod.o

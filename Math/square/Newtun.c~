@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+double sqrt_newton(double)
+{
+
+}
+
+int main()
+{
+
+}
+
